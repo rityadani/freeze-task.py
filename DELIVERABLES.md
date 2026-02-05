@@ -20,10 +20,11 @@
   - Proof: `demo_proof_logs.json` shows no illegal actions
 
 ### ✅ DAY 2 - WEBSITE INTEGRATION & QA
-- [x] **Live website updated on Vercel** (Ready for deployment)
+- [x] **Live website updated on Vercel** (API ready for deployment)
   - Demo API endpoints created (`/api/decision`, `/api/status`, `/api/demo/scenarios`)
   - JSON response format for website consumption
   - Local demo interface (`demo_interface.html`)
+  - [ ] **Frontend team confirmation pending** (see FRONTEND_INTEGRATION.md)
 
 - [x] **Demo-visible decision flow**
   - Runtime event → RL decision → Safety result

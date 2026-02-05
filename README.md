@@ -188,6 +188,7 @@ Run `python demo_validation.py` to verify:
 
 ### Shivam Pal — Orchestrator
 Consumes RL decisions via `/api/decision` endpoint
+**Note:** Runtime payload normalization (raw signals → event_type mapping) handled by orchestrator, not RL layer
 
 ### Vinayak — QA  
 Validates scenarios using `/api/demo/scenarios`
@@ -209,8 +210,9 @@ Displays decision flow from API responses
 ### Day 2 - Website Integration ✅
 - [x] Demo API endpoints
 - [x] JSON response format
-- [x] Live website ready
+- [x] Live website ready (API endpoints)
 - [x] Demo scenarios defined
+- [ ] **Frontend confirmation pending** (see FRONTEND_INTEGRATION.md)
 
 ---
 
